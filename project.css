@@ -1,0 +1,385 @@
+*{
+margin: 0;
+padding: 0;
+}
+body
+{
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('rest2.jpeg');
+background-size:cover;
+background-position:center;
+}
+p{
+color:Blue;
+font-size: 30px;
+background-color:Moccasin;
+opacity: 0.7;
+}
+p1,h3{
+color:maroon;
+font-size: 30px;
+background-color:tan;
+opacity: 0.7;
+}
+button{
+width:200px;
+padding: 15px 0;
+text-align: center;
+margin: 30px 10px;
+border-radius: 30px;
+font-weight: bold;
+border: 5px solid Lime;
+background: transparent;
+color: Plum;
+cursor:pointer;
+position:relative;
+overflow: hidden;
+font-size:15px;
+background-attachment:fixed;
+}
+span{
+background: LightGoldenrodYellow;
+height: 100%;
+width: 0%;
+border-radius: 25px;
+position: absolute;
+left: 0;
+bottom: 0;
+z-index: -1;
+transition:0.5s;
+}
+button:hover span{
+width: 100%;
+}
+button:hover{
+border:none;
+color:DarkGoldenrod;
+border: 5px solid Lime;
+}
+@-webkit-keyframes colorchange {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: salmon;
+  }
+  20% {
+    color: peru;
+  }
+  30% {
+    color: orchid;
+  }
+  40% {
+    color: MediumSpringGreen;
+  }
+  50% {
+    color: red;
+  }
+  60% {
+    color: DarkMagenta;
+  }
+  70% {
+    color: YellowGreen;
+  }
+  80% {
+    color: pink;
+  }
+  90% {
+    color: Goldenrod;
+  }
+  100% {
+    color: Bisque;
+  }
+}
+h1{
+color: BlanchedAlmond;
+font-size:80px;
+font-family:"Brush Script MT";
+-webkit-animation: colorchange 20s infinite alternate;
+}
+.a
+{
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("b.gif");
+background-size:cover;
+background-position:center;
+}
+.nav{
+width: 70%;
+margin: auto;
+padding: 25px 0;
+display:flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav ul li{
+list-style:none;
+display: inline-block;
+margin: 0 20px;
+position: relative;
+}
+.logo{
+width: 150px;
+cursor: pointer;
+}
+.nav ul li a{
+text-decoration:none;
+display: inline-block;
+color: white;
+text-transform: uppercase;
+font-size:150%
+}
+.nav ul li::after{
+content: ' ';
+height: 3px;
+width: 0;
+background: pink;
+position: absolute;
+left:0;
+bottom: -10px;
+transition:0.5s;
+}
+.nav ul li:hover::after{
+width: 100%;
+}
+.form{
+width: 400px;
+height: 450px;
+background:transparent;
+border: 2px solid rgba(255, 255, 255 , .2);
+color: white;
+}
+.in input{
+width: 50%;
+height:6%;
+background:transparent;
+border:none;
+outline:none;
+border: 2px solid rgba(255, 255, 255 , .2);
+border-radius: 40px;
+font-size: 16px;
+color: white;
+padding: 20px, 45px, 20px, 20px);
+cursor:pointer;
+
+}
+.in input::placeholder{
+color:white;
+}
+.in option{
+width: 50%;
+height:50%;
+border: 2px solid rgba(255, 255, 255 , .2);
+border-radius: 40px;
+font-size: 16px;
+padding: 20px, 45px, 20px, 20px);
+}
+.navb{
+width: 50%;
+padding: 25px 0;
+display:flex;
+justify-content: space-between;
+padding: 25px 0;
+margin: auto;
+}
+.navb ul1 li1{
+list-style: circle;
+display: inline-block;
+margin: 0 20px;
+position: relative;
+}
+.navb ul1 li1 a{
+text-decoration:none;
+display: inline-block;
+color: white;
+text-transform: uppercase;
+font-size:90%
+}
+.navb ul1 li1::after{
+content: ' ';
+height: 3px;
+width: 0;
+background: orchid;
+position: absolute;
+left:0;
+bottom: -2px;
+transition:0.5s;
+}
+.navb ul1 li1:hover::after{
+width: 100%;
+}
+h2{
+color: pink;
+background-color: peru;
+}
+.b
+{
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("fmenu/food.jpeg");
+background-size:cover;
+background-position:center;
+}
+.row{
+width:99%;
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
+.clm{
+width:25%;
+box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+padding: 5px;
+transition: 0.5s;
+}
+.clm img{
+display: block;
+border-radius: 5px;
+height:100%;
+width:25%;
+}
+.clm:hover {
+width:28%;
+transform:scale(1.3)
+z-index:2;
+background-position:center;
+background-attachment: fixed;
+}
+.c{
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("fmenu/nextb.jpg");
+background-size:cover;
+background-position:center;
+}
+.h{
+font-size: 250%;
+background-color: transparent;
+}
+.ABc ul2{
+width: 99%;
+height: 56%;
+display:flex;
+list-style-type:none;
+justify-contents: center;
+}
+input[type="checkbox"]{
+display: none;
+}
+ .ABc label img{
+height: 90%;
+width: 90%;
+}
+.ABc label{
+border: pink;
+padding: 5px;
+display:block;
+cursor: pointer;
+margin:20px;
+padding: 18px;
+height: 50%;
+width: 90%;
+position:relative;
+}
+ .ABc label:before{
+background: 1px solid pink;
+color: black;
+content:" ";
+display: block;
+border-radius: 35%;
+position: absolute;
+border: transparent;;
+top: -5px;
+left: 10px;
+width: 30px;
+height: 25px;
+transition: .02s linear;
+transform-origin: 50% 50%;
+fomt-color:green;
+
+}
+ .ABc :checked + label{
+border-color: transparent;
+box-shadow: 2px 3px 25px rgba(0,0,0,0.2);
+}
+.ABc :checked + label img{
+transform: scale(0.9);
+}
+.ABc :checked + label::before{
+content: "\f00c";
+background: orchid;
+color: white;
+transform: scale(1);
+z-index: -1;
+font-family: FontAwesome;
+color: green;
+font-size: 25px;
+}
+.d
+{
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("fmenu/confb.jpg");
+background-size:cover;
+background-position:center;
+margin: 0;
+padding: 0;
+background: # 262626;
+}
+.rating{
+position: absolute;
+top:80%;
+left:41%;
+transform: transalte(-80%,-43%) rotateY(230deg);
+display: flex;
+}
+.rating input{
+display: none;
+height: 60px;
+}
+.rating label{
+cursor: pointer;
+width: 40px;
+height: 60px;
+align-items:center;
+}
+.rating label:before{
+content: "\f005";
+font-family: fontAwesome;
+position: relative;
+font-size: 40px;
+width: 40px;
+color: white;
+justify-contents: center;
+}
+.rating label:after{
+content: "\f005";
+font-family: fontAwesome;
+position: relative;
+font-size: 40px;
+width: 40px;
+color: yellow;
+justify-contents: center;
+left:-9.7%;
+top:3%;
+transform: transalte(-80%,-5%);
+opacity:1;
+trabsition: .12s;
+text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.rating label:hover ~ label:after,
+.rating label:hover:after,
+.rating input:checked ~ label:after
+{
+opacity:1;
+color: #daa520;
+}
+.home
+{
+font-size:25px;
+}
+.hi{
+-webkit-animation: colorchange 20s infinite alternate;
+color: BlanchedAlmond;
+font-size:40px;
+font-family: "Impact";
+}
+.bye{
+color: peru;
+font-size:30px;
+font-family: "arial";
+background-color:transparent;
+}
+
